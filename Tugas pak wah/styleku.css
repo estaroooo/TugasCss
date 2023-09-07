@@ -1,0 +1,88 @@
+ @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Poppins:ital,wght@0,200;0,500;0,900;1,600;1,800;1,900&family=Roboto:wght@900&display=swap');
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+    font-family: 'poppins', sans-serif;
+ }
+
+.header{
+    width: 100%;
+    background: gainsboro;
+    font-size: 20px;
+    text-align: center;
+}
+
+.header h1{
+    padding: 5px;
+    color: black;
+}
+
+.nav{
+    background: black;
+    float: left;
+    width: 100%;
+}
+
+.nav li{
+    float: left ;
+    list-style: none;
+}
+ 
+.nav li a {
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    color: white;
+}
+
+.nav ul{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+ 
+.nav a:hover{
+
+    color: red;
+}
+
+.sidebar{
+    background: gray;
+    width: 350px;
+    height: 800px;
+    padding: 30px;
+    text-align: center;
+}
+
+.sidebar ul{
+    align-items: center;
+}
+
+.sidebar li{
+    list-style: none;
+}
+
+.sidebar li a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+}
+.sidebar li a:hover{
+    font-weight: bold;
+}
+.content {
+    background-color: white;
+    width: 900px;
+    height: 800px;
+  
+}
+
+
+
